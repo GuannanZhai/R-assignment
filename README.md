@@ -20,8 +20,8 @@ makeCacheMatrix <- function( a = matrix() ) {
   }
   ## Return method
   list(set = set, get = get,
-       setInverse = setInverse,
-       getInverse = getInverse)
+       Set_Inverse = Set_Inverse,
+       Get_Inverse = Get_Inverse)
 }
 
 cacheSolve <- function(index, ...) {
